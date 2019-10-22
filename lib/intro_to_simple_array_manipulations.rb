@@ -26,4 +26,17 @@ def using_concat(arr1, arr2)
   return arr1.concat(arr2)
 end
 
-def 
+def using_insert(arr, ele)
+ return arr[4].insert(ele)
+  
+end
+
+
+def using_uniq (arr)
+  return arr.uniq
+end
+
+def using_flatten (array, str)
+  array.delete(str)
+end
+
