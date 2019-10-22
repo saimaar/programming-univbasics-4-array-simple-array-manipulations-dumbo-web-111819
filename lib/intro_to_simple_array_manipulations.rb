@@ -37,9 +37,9 @@ def using_uniq (arr)
 end
 
 def using_flatten (array, str)
-  array.delete(str)
+  return array.delete(str)
 end
 
 def using_delete_at(arr, int)
-  arr.delete(int)
+  return arr.delete(int)
 end
